@@ -1,34 +1,29 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# NextJs Starter Kit
 
-## Getting Started
+### **Default Tech Stack**
 
-First, run the development server:
+    nextjs, typescript, react, tailwindcss
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+### Recommended Packages (Server Side = ⚙)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- [firebase](https://www.npmjs.com/package/firebase) - 🌏 Authentication, Database, Storage, Etc.
+- ⚙ [firebase-admin](https://www.npmjs.com/package/firebase-admin) - ServerSide Authentication, Database, Storage, Etc.
+- ⚙ [mongoose](https://github.com/Automattic/mongoose) MongoDB ORM easy & Asynchronous.
+- ⚙ [prisma](https://www.prisma.io/) Next-generation Node.js and TypeScript ORM, (Prisma Client, Prisma Migrate, Prisma Studio).
+- ⚙ [@prisma/client](https://www.prisma.io/) Auto-generated and type-safe query builder for Node.js & TypeScript.
+- ⚙ [formidable](https://github.com/node-formidable/formidable) Multipart Form-Data Parser.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+### Development Toolchain
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+- [next](https://nextjs.org/) The React Framework
+  for Production.
+- [tailwindcss](https://tailwindcss.com/) - 💅 Painless Style with Utility-first CSS framework.
+- [prettier](https://prettier.io/) An opinionated code formatter.
+- [typescript](https://www.typescriptlang.org/) TypeScript is JavaScript with syntax for types.
+- [eslint](https://eslint.org/) statically analyzes your code to quickly find problems.
+- [husky](https://typicode.github.io/husky/#/) Modern native Git hooks made easy.
+- [babel](https://babeljs.io/) Babel is a JavaScript compiler.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+### Recommended VS Code Extensions
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- [Headwind](https://github.com/heybourn/headwind) An opinionated Tailwind CSS class sorter built for Visual Studio Code.
