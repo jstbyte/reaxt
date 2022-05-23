@@ -11,6 +11,3 @@ body {
 ::before {
   box-sizing: border-box;
 }
-
-/* Include tailwindcss */
-@import './tailwind.css';
