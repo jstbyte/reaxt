@@ -1,19 +1,24 @@
 .main {
-  @apply text-base text-center;
+  text-align: center;
+  font-weight: 600;
 }
 
 .main > p {
-  @apply px-4 italic text-blue-700;
+  color: blue;
 }
 
 .heading {
-  @apply text-4xl font-semibold text-fuchsia-600;
+  font-size: xx-large;
+  font-weight: bold;
 }
 
 .footer {
-  @apply absolute inset-x-0 bottom-0 flex items-center justify-center py-1 italic border-t;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .footer > a {
-  @apply px-2 no-underline;
+  text-decoration: none;
+  margin-left: 5px;
 }

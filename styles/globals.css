@@ -10,8 +10,4 @@ body {
 ::after,
 ::before {
   box-sizing: border-box;
-  border-width: 0;
-  border-style: solid;
-  /* tailwind specific */
-  border-color: theme('borderColor.DEFAULT');
 }
