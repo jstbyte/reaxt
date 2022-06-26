@@ -2,7 +2,7 @@
 
 ### **Default Tech Stack**
 
-    nextjs, typescript, react, tailwindcss
+    nextjs, typescript, react
 
 ### Recommended Packages (Server Side = ⚙)
 
