@@ -17,12 +17,10 @@
 
 - [next](https://nextjs.org/) The React Framework
   for Production.
-- [tailwindcss](https://tailwindcss.com/) - 💅 Painless Style with Utility-first CSS framework.
 - [prettier](https://prettier.io/) An opinionated code formatter.
 - [typescript](https://www.typescriptlang.org/) TypeScript is JavaScript with syntax for types.
 - [eslint](https://eslint.org/) statically analyzes your code to quickly find problems.
 - [husky](https://typicode.github.io/husky/#/) Modern native Git hooks made easy.
-- [babel](https://babeljs.io/) Babel is a JavaScript compiler.
 
 ### Recommended VS Code Extensions
 
