@@ -2,8 +2,8 @@
   "compilerOptions": {
     "baseUrl": "./",
     "paths": {
-      "@core/*": ["./core/*"],
       "@components/*": ["./components/*"],
+      "@core/*": ["./lib/core/*"],
       "@lib/*": ["./lib/*"]
     },
     "target": "es5",
