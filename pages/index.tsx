@@ -42,6 +42,9 @@ const useStyles = createStyles((theme) => ({
 
   insideTitle: {
     fontSize: 32,
+    [theme.fn.smallerThan('xs')]: {
+      fontSize: 24,
+    },
   },
 
   control: {
