@@ -1,6 +1,6 @@
 import type { AppProps } from 'next/app';
 import Layout from '@lib/views/Layout';
-import '../styles/globals.css';
+import '../global.styles.css';
 
 type AppLayoutProps = AppProps & { Component: NPage };
 
