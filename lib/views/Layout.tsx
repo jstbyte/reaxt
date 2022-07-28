@@ -1,4 +1,5 @@
 import { ReactNode } from 'react';
+import Header from './Header';
 import Providers from './Providers';
 
 interface LayoutProps {
@@ -6,5 +7,10 @@ interface LayoutProps {
 }
 
 export default function Layout({ children }: LayoutProps) {
-  return <Providers>{children}</Providers>;
+  return (
+    <Providers>
+      <Header />
+      {children}
+    </Providers>
+  );
 }
